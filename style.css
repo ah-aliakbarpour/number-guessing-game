@@ -1,0 +1,85 @@
+body{
+    background-color: #a3a3a3;
+    color: #383838;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#div-1{
+    background-color: #f6fbff;
+    text-align: left;
+    width: 700px;
+    border-radius: 20px;
+    margin: 2em auto auto auto;
+    padding: 1em 3em 2em 3em;
+    box-shadow: 10px 10px 10px grey;
+}
+#div-2{
+    background-color: #e7e7e7;
+    text-align: left;
+    height: 98px;
+    border-left: #228ce2 solid 5px;
+    padding: 1em 2em 1em 2em;
+    box-shadow: 5px 5px 5px #c2c2c2;
+}
+.chances{
+    font-size: 5px;
+    border: 3.5px #228ce2 solid;
+    border-radius: 7px;
+    margin-left: 4px;
+    padding: 2px 7px;
+}
+#timer{
+    color: #383838;
+    text-align: center;
+    font-size: 23px;
+    width: 65px;
+    border: 3px #228ce2 solid;
+    border-radius: 7px;
+    padding: 3px;
+    box-shadow: 4px 4px 3px #c2c2c2;
+}
+#inputBox{
+    border: 2px solid #228ce2;
+    border-radius: 4px;
+    margin-left: 7px;
+    width: 60px;
+}
+#inputBox:focus{
+    outline: none;
+    box-shadow: 0 0 0 1px #228ce2;
+
+}
+#guessButton{
+    background-color: #228ce2;
+    color: #f0ffff;
+    font-size: 16px;
+    border: 2px solid #1e79c2;
+    border-radius: 4px;
+    margin-left: 8px;
+    box-shadow: 4px 4px 3px #c2c2c2;
+}
+#warnAboutInput{
+    color: #228ce2;
+    font-size: 23px;
+    margin-left: 15px;
+}
+#playAgainButton{
+    background-color: #228ce2;
+    color: #f0ffff;
+    font-size: 16px;
+    float: right;
+    border: 2px solid #1e79c2;
+    border-radius: 4px;
+    box-shadow: 4px 4px 3px #c2c2c2;
+}
+#guessButton:hover, #playAgainButton:hover{
+    background-color: #1e79c2;
+    cursor: pointer;
+}
+#guessButton:active, #playAgainButton:active{
+    background-color: #18629c;
+}
+#name:hover, #email:hover{
+    color: #383838;
+    cursor: default;
+}
