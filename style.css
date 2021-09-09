@@ -10,7 +10,7 @@ body{
     width: 700px;
     border-radius: 20px;
     margin: 2em auto auto auto;
-    padding: 1em 3em 2em 3em;
+    padding: 1em 3em 1em 3em;
     box-shadow: 10px 10px 10px grey;
 }
 #div-2{
@@ -78,8 +78,4 @@ body{
 }
 #guessButton:active, #playAgainButton:active{
     background-color: #18629c;
-}
-#name:hover, #email:hover{
-    color: #383838;
-    cursor: default;
 }
