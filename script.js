@@ -84,7 +84,7 @@ function handleUserInput(){
     if(inputValue > randomNumber)
         warnAboutInput.innerText = "Too high!";
     else
-        warnAboutInput.innerText = "Too law!";
+        warnAboutInput.innerText = "Too low!";
 }
 
 function finish(win, timeOut = false){
